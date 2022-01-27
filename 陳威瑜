@@ -30,7 +30,33 @@
     <a href="Untitled3.html">
         <img src="1.jpeg" width="250" height="250"></a>
         <a href="Untitled2.html">
-            <img src="3.jpeg" width="250" height="250"></a>
+            <img src="3.jpeg" width="250" height="250"></a>           
+</body>
+</html> 
+
+3
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="花.jpeg" width="500" height="500">
+<h1>這是不是一朵花</h1> 
+ <form onsubmit="judge(this.ans.value)">
+<input type="text" id="ans" placeholder="123"> <input type="submit" value="確認">
+ </form> 
+ <script>
+     function judge(ans){
+
+        if(ans=="是"){
+            alert("你答對了")
+        }else {alert("你答錯了")}
+     }
+ </script>
 </body>
 </html>
-
